@@ -3,7 +3,7 @@
     "name": "HUD App",
     "short_name": "HUD",
     "description": "A heads up display app",
-    "start_url": "/index.html",
+    "start_url": "/Heads-Up-Display/index.html",
     "background_color": "#000000",
     "theme_color": "#ff0000",
     "orientation": "any",
