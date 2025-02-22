@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Zen Dots';
+    src: url('./Zen_Dots/ZenDots-Regular.ttf');
+}
+
+html,
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    font-family: 'Zen Dots';
+    font-style: italic;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    transform: scale(-1, 1);
+}
+
+.display {
+    color: rgb(250, 0, 0);
+}
+
+.label {
+    color: rgb(141, 141, 141);
+}
+
+#speed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Speed number styling */
+  #speed-display {
+    font-size: 12rem;
+    font-weight: bold;
+  }
+
+  /* MPH label directly below */
+  #speed-label {
+    font-size: 2rem;
+    margin-top: -10px; /* Adjust spacing to bring it closer */
+  }

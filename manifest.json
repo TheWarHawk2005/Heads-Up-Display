@@ -1,0 +1,18 @@
+{
+    "lang": "en-us",
+    "name": "HUD App",
+    "short_name": "HUD",
+    "description": "A heads up display app",
+    "start_url": "/index.html",
+    "background_color": "#000000",
+    "theme_color": "#ff0000",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        }
+    ]
+}
